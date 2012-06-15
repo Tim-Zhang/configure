@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/tim/dh/website/lab/showdown'
+let g:netrw_dirhist_2='/home/tim/git/web/app/views/scripts'
+let g:netrw_dirhist_3='/home/tim/git/doc'
+let g:netrw_dirhist_4='/home/tim/.vim'
+let g:netrw_dirhist_5='/home/tim/git/web/config'
+let g:netrw_dirhist_6='/home/tim/git/web/lib/Zend/Validate/Hostname'
+let g:netrw_dirhist_7='/home/tim/.vim'
