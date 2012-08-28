@@ -1,0 +1,31 @@
+# Default
+127.0.0.1	localhost
+127.0.1.1	tim-dev
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+
+# Linux Host
+172.3.11.10       wt
+106.187.91.152    linode
+208.113.229.103	dh
+192.168.1.100     yizero
+172.3.11.103      vm1
+172.3.11.104      vm2
+172.1.0.3         vm3
+172.3.11.92       wwz
+10.96.60.36       yw
+
+# Develop
+127.0.1.1	   local.beta.dnspod.cn
+127.0.1.1	   ip.beta.dnspod.cn
+183.60.57.158  big.dnspod.cn
+
+#tmp
+#172.3.11.10 www.dnspod.cn
+#172.3.11.10 statics.dnspod.cn
+
+
