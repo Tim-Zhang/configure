@@ -1,3 +1,4 @@
+set   nocp
 set   nu
 imap  jj    <Esc> 
 set   hls
@@ -32,7 +33,7 @@ set filetype=python
 filetype indent on
 autocmd FileType python setlocal et sta sw=4 sts=4
 
-"filetype plugin on
+filetype plugin on
 "set ofu=syntaxcomplete#Complete
 "autocmd FileType python　set omnifunc=pythoncomplete#Complete
 "autocmd FileType python runtime! autoload/pythoncomplete.vim
@@ -40,6 +41,9 @@ autocmd FileType python setlocal et sta sw=4 sts=4
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Plugin configuration
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+""EasyMotion
+let g:EasyMotion_leader_key = '<Leader>'
 
 "" taglist
 let Tlist_Show_One_File=1
