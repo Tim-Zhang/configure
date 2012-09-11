@@ -15,7 +15,7 @@ set   ts=3
 set   tw=80
 set   lbr
 set   et
-set   encoding=utf-8
+let mapleader=","
 
 
 set autoindent
@@ -56,3 +56,8 @@ map <F7> :NERDTreeToggle<CR>
 map <F7> :NERDTreeToggle<CR>
 map <S-Left> :tabp<CR>
 map <S-Right> :tabn<CR>
+
+""Indent Guides 
+"let g:indent_guides_auto_colors = 0
+"autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=red   ctermbg=3
+"autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=green ctermbg=4
