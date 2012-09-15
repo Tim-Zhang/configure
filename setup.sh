@@ -29,4 +29,9 @@ if [ ! -d ~/.ssh ] ;then
    mkdir ~/.ssh
 fi
 ln -sf $SCRIPTPATH/.ssh/config ~/.ssh/config
+# i3
+if [ -e ~/.i3 ] ;then
+   rm ~/.i3 -r
+fi
+ln -s $SCRIPTPATH/.i3 ~/.i3
 
