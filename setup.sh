@@ -8,16 +8,22 @@ echo
 
 # vim settings
 echo $PASSWD|sudo -S apt-get install ctags
+if [ -e ~/.vim ] ;then
+   rm ~/.vim -r
+fi
 ln -sf $SCRIPTPATH/.vimrc ~/.vimrc
-ln -sf $SCRIPTPATH/.vim ~/.vim
+ln -s $SCRIPTPATH/.vim ~/.vim
 # bashrc
 ln -sf $SCRIPTPATH/.bashrc ~/.bashrc
 # hosts
 echo $PASSWD|sudo -S ln -sf /home/tim/github/configure/hosts /etc/hosts
 # zsh
 echo $PASSWD|sudo -S apt-get install zsh
+if [ -e ~/.oh-my-zsh ] ;then
+   rm ~/.oh-my-zsh -r
+fi
 ln -sf $SCRIPTPATH/.zshrc ~/.zshrc
-ln -sf $SCRIPTPATH/.oh-my-zsh ~/.oh-my-zsh
+ln -s $SCRIPTPATH/.oh-my-zsh ~/.oh-my-zsh
 # ssh-config
 if [ ! -d ~/.ssh ] ;then
    mkdir ~/.ssh
