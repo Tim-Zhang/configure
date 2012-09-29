@@ -1,3 +1,4 @@
 .ssh/id*
 .ssh/known*
 *.swp
+.vim/.netrwhist
