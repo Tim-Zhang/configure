@@ -35,3 +35,12 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+
+# quick method
+alias cdv="~/git/web/app/views/scripts"
+alias cdapp="~/git/web/app"
+alias cdm="~/git/web/app/models"
+alias cdj="~/git/web/www/yantai/js"
+alias cdcss="~/git/web/www/yantai/css"
+
+

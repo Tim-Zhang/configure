@@ -16,12 +16,15 @@ ff02::2 ip6-allrouters
 172.3.11.103      vm1
 172.3.11.104      vm2
 172.1.0.3         vm3
+172.4.0.100       vm5
 172.3.11.92       wwz
 10.96.60.36       yw
 
 # Develop
 127.0.1.1	   local.beta.dnspod.cn
 127.0.1.1	   ip.beta.dnspod.cn
+127.0.1.1	   test.com
+127.0.1.1	   local.anquanbao.com
 183.60.57.158  big.dnspod.cn
 
 #tmp
