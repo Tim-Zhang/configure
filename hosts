@@ -1,6 +1,6 @@
 # Default
 127.0.0.1	localhost
-127.0.1.1	tim-dev
+127.0.1.1   hummer	
 # The following lines are desirable for IPv6 capable hosts
 ::1     ip6-localhost ip6-loopback
 fe00::0 ip6-localnet
@@ -18,7 +18,7 @@ ff02::2 ip6-allrouters
 # Linux Host
 172.3.11.10       wt
 106.187.91.152    linode
-192.168.1.100     yizero
+192.168.1.101     yizero
 172.3.11.103      vm1
 172.3.11.104      vm2
 172.1.0.3         vm3
