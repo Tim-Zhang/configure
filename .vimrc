@@ -15,6 +15,8 @@ set   ts=3
 set   tw=80
 set   lbr
 set   et
+set   list
+set listchars=tab:▸\ ,eol:¬
 let mapleader=","
 
 
