@@ -12,7 +12,7 @@ set   encoding=utf-8
 set   smarttab
 set   sw=3
 set   ts=3
-set   tw=80
+"set   tw=80
 set   lbr
 set   et
 set   list
