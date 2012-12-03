@@ -16,7 +16,7 @@ ln -s $SCRIPTPATH/.vim ~/.vim
 # bashrc
 ln -sf $SCRIPTPATH/.bashrc ~/.bashrc
 # hosts
-echo $PASSWD|sudo -S ln -sf /home/tim/github/configure/hosts /etc/hosts
+echo $PASSWD|sudo -S ln -sf $SCRIPTPATH/hosts /etc/hosts
 # zsh
 echo $PASSWD|sudo -S apt-get install zsh
 if [ -e ~/.oh-my-zsh ] ;then
