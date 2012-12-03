@@ -9,8 +9,8 @@ ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 
 # VPS
-64.111.29.151     fr
-64.111.29.151     fiat
+64.111.29.151     fr fiat
+54.251.116.88     ford
 
 #Shared Hosting
 208.113.229.103	dh
@@ -31,6 +31,7 @@ ff02::2 ip6-allrouters
 127.0.1.1	   ip.beta.dnspod.cn
 127.0.1.1	   test.com
 127.0.1.1	   local.anquanbao.com
+127.0.1.1	   fenlei.com 
 183.60.57.158  big.dnspod.cn
 
 #tmp
