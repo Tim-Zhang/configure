@@ -159,4 +159,5 @@ bar {
 
 exec gnome-settings-daemon
 exec nm-applet
+#exec gnome-sound-applet
 exec --no-startup-id xsetroot -solid "#333333"
