@@ -1,6 +1,5 @@
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
-
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
@@ -39,9 +38,15 @@ export DEFAULT_USER="tim"
 
 # quick method
 alias .="source"
-alias cdv="~/git/web/app/views/scripts"
-alias cdapp="~/git/web/app"
-alias cdm="~/git/web/app/models"
-alias cdj="~/git/web/www/yantai/js"
-alias cdcss="~/git/web/www/yantai/css"
+alias cdv="~/dnspod/web/app/views/scripts"
+alias cdapp="~/dnspod/web/app"
+alias cdm="~/dnspod/web/app/models"
+alias cdj="~/dnspod/web/www/yantai/js"
+alias cdcss="~/dnspod/web/www/yantai/css"
 
+# Disable auto-correct
+unsetopt correct_all
+
+#Node Version Manager
+source ~/github/nvm/nvm.sh
+nvm use 0.8.16

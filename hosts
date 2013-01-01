@@ -9,14 +9,14 @@ ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 
 # VPS
-64.111.29.151     fr fiat
+198.147.21.85     fr fiat
 54.251.116.88     ford
 
 #Shared Hosting
 208.113.229.103	dh
 
 # Linux Host
-172.4.2.7       wt
+172.4.2.7         wt
 106.187.91.152    linode
 192.168.1.101     yizero
 172.4.2.3         vm1
