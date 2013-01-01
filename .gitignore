@@ -2,3 +2,4 @@
 .ssh/known*
 *.swp
 .vim/.netrwhist
+.ssh/authorized_keys
