@@ -17,6 +17,9 @@ ln -s $SCRIPTPATH/.vim ~/.vim
 ln -sf $SCRIPTPATH/.bashrc ~/.bashrc
 # hosts
 echo $PASSWD|sudo -S ln -sf $SCRIPTPATH/hosts /etc/hosts
+# jshint
+ln -sf $SCRIPTPATH/.jshintrc ~/.jshintrc
+
 # zsh
 echo $PASSWD|sudo -S apt-get install zsh
 if [ -e ~/.oh-my-zsh ] ;then
