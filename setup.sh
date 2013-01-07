@@ -19,6 +19,8 @@ ln -sf $SCRIPTPATH/.bashrc ~/.bashrc
 echo $PASSWD|sudo -S ln -sf $SCRIPTPATH/hosts /etc/hosts
 # jshint
 ln -sf $SCRIPTPATH/.jshintrc ~/.jshintrc
+# git config
+ln -sf $SCRIPTPATH/.gitconfig ~/.gitconfig
 
 # zsh
 echo $PASSWD|sudo -S apt-get install zsh
