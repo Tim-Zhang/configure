@@ -3,7 +3,8 @@
 	email = timzhang@dnspod.com
 [alias]
    co = checkout
-   ci = commit -a
+   ca = commit -a
+   cm = commit -m
    st = status
    br = branch
    onelog = log -p -1
