@@ -17,6 +17,7 @@ ff02::2 ip6-allrouters
 
 # Linux Host
 172.4.2.7         wt
+172.4.2.24        ws
 106.187.91.152    linode
 192.168.1.101     yizero
 172.4.2.3         vm1
@@ -28,6 +29,7 @@ ff02::2 ip6-allrouters
 
 # Develop
 127.0.1.1	   local.beta.dnspod.cn
+172.4.2.7	   support.testing.dnspod.cn
 127.0.1.1	   ip.beta.dnspod.cn
 127.0.1.1	   test.com
 127.0.1.1	   local.anquanbao.com
@@ -38,4 +40,9 @@ ff02::2 ip6-allrouters
 #172.3.11.10 www.dnspod.cn
 #172.3.11.10 statics.dnspod.cn
 
+# github
+207.97.227.239       github.com
+207.97.227.252       nodeload.github.com
+169 207.97.227.243   raw.github.com
+204.232.175.94       gist.github.com
 
