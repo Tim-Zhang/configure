@@ -26,6 +26,11 @@ ff02::2 ip6-allrouters
 172.4.0.100       vm5
 172.3.11.92       wwz
 10.96.60.36       yw
+## t.xxx and more 
+172.2.0.19        hongke
+
+# Server
+96.126.115.73     webint
 
 # Develop
 127.0.1.1	   local.beta.dnspod.cn
@@ -36,7 +41,9 @@ ff02::2 ip6-allrouters
 127.0.1.1	   fenlei.com 
 183.60.57.158  big.dnspod.cn
 
-#tmp
+# tmp
+124.232.150.7   www.dnspod.cn dnspod.cn statics.dnspod.cn dnsapi.cn
+113.31.64.138   www.anquanbao.com crm.anquanbao.com
 #172.3.11.10 www.dnspod.cn
 #172.3.11.10 statics.dnspod.cn
 
