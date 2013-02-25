@@ -88,29 +88,39 @@ bindsym $mod+8 workspace w8
 bindsym $mod+9 workspace w9
 bindsym $mod+0 workspace vbox
 
-bindsym $mod+Shift+1 workspace 1
-bindsym $mod+Shift+2 workspace 2
-bindsym $mod+Shift+3 workspace 3
-bindsym $mod+Shift+4 workspace 4
-bindsym $mod+Shift+5 workspace 5
-bindsym $mod+Shift+6 workspace 6
-bindsym $mod+Shift+7 workspace 7
-bindsym $mod+Shift+8 workspace 8
-bindsym $mod+Shift+9 workspace 9
-bindsym $mod+Shift+0 workspace 0
+#bindsym $mod+Shift+1 workspace 1
+#bindsym $mod+Shift+2 workspace 2
+#bindsym $mod+Shift+3 workspace 3
+#bindsym $mod+Shift+4 workspace 4
+#bindsym $mod+Shift+5 workspace 5
+#bindsym $mod+Shift+6 workspace 6
+#bindsym $mod+Shift+7 workspace 7
+#bindsym $mod+Shift+8 workspace 8
+#bindsym $mod+Shift+9 workspace 9
+#bindsym $mod+Shift+0 workspace 0
 
 # move focused container to workspace
-bindsym $mod+Shift+exclam move workspace 1
-bindsym $mod+Shift+at move workspace 2
-bindsym $mod+Shift+numbersign move workspace 3
-bindsym $mod+Shift+dollar move workspace 4
-bindsym $mod+Shift+percent move workspace 5
-bindsym $mod+Shift+asciicircum move workspace 6
-bindsym $mod+Shift+ampersand move workspace 7
-bindsym $mod+Shift+asterisk move workspace 8
-bindsym $mod+Shift+parenleft move workspace 9
-bindsym $mod+Shift+parenright move workspace 10
+#bindsym $mod+Shift+exclam move workspace 1
+#bindsym $mod+Shift+at move workspace 2
+#bindsym $mod+Shift+numbersign move workspace 3
+#bindsym $mod+Shift+dollar move workspace 4
+#bindsym $mod+Shift+percent move workspace 5
+#bindsym $mod+Shift+asciicircum move workspace 6
+#bindsym $mod+Shift+ampersand move workspace 7
+#bindsym $mod+Shift+asterisk move workspace 8
+#bindsym $mod+Shift+parenleft move workspace 9
+#bindsym $mod+Shift+parenright move workspace 10
 
+bindsym $mod+Shift+exclam move workspace main
+bindsym $mod+Shift+at move workspace chrome
+bindsym $mod+Shift+numbersign move workspace sublime
+bindsym $mod+Shift+dollar move workspace firefox
+bindsym $mod+Shift+percent move workspace w5
+bindsym $mod+Shift+asciicircum move workspace w6
+bindsym $mod+Shift+ampersand move workspace w7
+bindsym $mod+Shift+asterisk move workspace w8
+bindsym $mod+Shift+parenleft move workspace w9
+bindsym $mod+Shift+parenright move workspace vbox
 
 # reload the configuration file
 bindsym $mod+Shift+C reload
