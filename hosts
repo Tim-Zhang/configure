@@ -9,8 +9,10 @@ ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 
 # VPS
+116.251.209.158   kia
 198.147.21.85     fr fiat
 54.251.116.88     ford
+198.23.227.151    jeep
 
 #Shared Hosting
 208.113.229.103	dh
@@ -18,6 +20,7 @@ ff02::2 ip6-allrouters
 # Linux Host
 172.4.2.7         wt
 172.4.2.24        ws
+172.4.2.18        wit
 106.187.91.152    linode
 192.168.1.101     yizero
 172.4.2.3         vm1
@@ -42,10 +45,12 @@ ff02::2 ip6-allrouters
 183.60.57.158  big.dnspod.cn
 
 # tmp
-124.232.150.7   www.dnspod.cn dnspod.cn statics.dnspod.cn dnsapi.cn
-113.31.64.138   www.anquanbao.com crm.anquanbao.com
-#172.3.11.10 www.dnspod.cn
-#172.3.11.10 statics.dnspod.cn
+## anquanbao
+#124.232.150.7     www.dnspod.cn dnspod.cn statics.dnspod.cn dnsapi.cn
+#113.31.64.138     www.anquanbao.com crm.anquanbao.com
+#172.3.11.10       www.dnspod.cn
+#172.3.11.10       statics.dnspod.cn
+#124.232.150.7     aqb
 
 # github
 207.97.227.239       github.com

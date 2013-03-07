@@ -50,3 +50,8 @@ unsetopt correct_all
 #Node Version Manager
 source ~/github/nvm/nvm.sh
 nvm use 0.8.16
+
+#Object-c
+GNUSTEP_MAKEFILES=/usr/share/GNUstep/Makefiles
+export GNUSTEP_MAKEFILES
+. /usr/share/GNUstep/Makefiles/GNUstep.sh
