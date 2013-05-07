@@ -10,8 +10,8 @@ set   whichwrap=b,s,h,l,<,>,[,]
 set   encoding=utf-8
 "set   cin
 set   smarttab
-set   sw=3
-set   ts=3
+set   sw=2
+set   ts=2
 "set   tw=80
 set   lbr
 set   et

@@ -50,7 +50,7 @@ ff02::2 ip6-allrouters
 #113.31.64.138     www.anquanbao.com crm.anquanbao.com
 #172.3.11.10       www.dnspod.cn
 #172.3.11.10       statics.dnspod.cn
-#124.232.150.7     aqb
+124.232.150.7     aqb
 
 # github
 207.97.227.239       github.com
