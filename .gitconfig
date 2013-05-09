@@ -7,6 +7,7 @@
    cm = commit -m
    st = status
    br = branch
+   df = diff
    onelog = log -p -1
 [diff]
    tool = vimdiff
