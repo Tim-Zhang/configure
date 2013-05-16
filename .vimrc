@@ -24,6 +24,8 @@ set autoindent
 set smartindent
 
 au BufNewFile,BufRead *.py,*.pyw setf python
+au BufRead,BufNewFile *.ejs setfiletype html
+au BufRead,BufNewFile *.less setfiletype css
 
 colo  ron
 
