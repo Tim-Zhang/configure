@@ -52,6 +52,6 @@ source ~/github/nvm/nvm.sh
 nvm use 0.10.5
 
 #Object-c
-GNUSTEP_MAKEFILES=/usr/share/GNUstep/Makefiles
-export GNUSTEP_MAKEFILES
-. /usr/share/GNUstep/Makefiles/GNUstep.sh
+#GNUSTEP_MAKEFILES=/usr/share/GNUstep/Makefiles
+#export GNUSTEP_MAKEFILES
+#. /usr/share/GNUstep/Makefiles/GNUstep.sh
