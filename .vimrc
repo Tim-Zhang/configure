@@ -29,6 +29,18 @@ au BufRead,BufNewFile *.less setfiletype css
 
 colo  ron
 
+"" MiniBufExplorer
+let g:miniBufExplMapWindowNavVim = 1 
+let g:miniBufExplMapWindowNavArrows = 1 
+let g:miniBufExplMapCTabSwitchBufs = 1 
+let g:miniBufExplModSelTarget = 1 
+
+"" vim-javascript
+let g:html_indent_inctags = "html,body,head,tbody"
+let g:html_indent_script1 = "inc"
+let g:html_indent_style1 = "inc"
+
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Python configuration
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
