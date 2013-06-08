@@ -1,3 +1,6 @@
 [submodule ".vim/bundle/jshint.vim"]
 	path = .vim/bundle/jshint.vim
 	url = https://github.com/walm/jshint.vim.git
+[submodule ".vim/bundle/CoVim"]
+	path = .vim/bundle/CoVim
+	url = git://github.com/FredKSchott/CoVim.git
