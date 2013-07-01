@@ -19,6 +19,9 @@ set   list
 set listchars=tab:▸\ ,eol:¬
 let mapleader=","
 
+"for coffeescript
+set nowritebackup
+
 
 set autoindent
 set smartindent
