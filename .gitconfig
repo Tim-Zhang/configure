@@ -13,3 +13,11 @@
    tool = vimdiff
 [difftool]
    prompt = False
+[core]
+	editor = /usr/bin/vim
+[merge]
+	tool = kdiff3
+[mergetool "kdiff3"]
+	path = /Applications/kdiff3.app/Contents/MacOS/kdiff3
+[push]
+	default = upstream

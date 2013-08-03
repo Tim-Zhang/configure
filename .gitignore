@@ -3,3 +3,4 @@
 *.swp
 .vim/.netrwhist
 .ssh/authorized_keys
+.vim/bundle/.DS_Store
