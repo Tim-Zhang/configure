@@ -55,3 +55,9 @@ nvm use 0.10.13
 #GNUSTEP_MAKEFILES=/usr/share/GNUstep/Makefiles
 #export GNUSTEP_MAKEFILES
 #. /usr/share/GNUstep/Makefiles/GNUstep.sh
+#
+
+# jianbing.org
+function j {
+  dig "$*.jianbing.org" +short txt | perl -pe's/\\(\d{1,3})/chr $1/eg; s/(^"|"$)//g'
+}
