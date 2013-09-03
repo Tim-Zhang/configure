@@ -119,3 +119,11 @@ PS1='`a=$?;if [ $a -ne 0 ]; then echo -n -e "\[\e[01;32;41m\]{$a}"; fi`\[\033[01
 function j {
    dig "$*.jianbing.org" +short txt | perl -pe's/\\(\d{1,3})/chr $1/eg; s/(^"|"$)//g'
 }
+
+# nodejs
+
+. ~/.nvm/nvm.sh
+nvm use 0.10.13
+
+# git complete
+. ~/.git-completion.bash
