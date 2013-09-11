@@ -123,7 +123,7 @@ function j {
 # nodejs
 
 . ~/.nvm/nvm.sh
-nvm use 0.10.13
+nvm use 0.10.17
 
 # git complete
 . ~/.git-completion.bash

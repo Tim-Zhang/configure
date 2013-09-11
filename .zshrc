@@ -38,18 +38,13 @@ export DEFAULT_USER="tim"
 
 # quick method
 alias .="source"
-alias cdv="~/dnspod/web/app/views/scripts"
-alias cdapp="~/dnspod/web/app"
-alias cdm="~/dnspod/web/app/models"
-alias cdj="~/dnspod/web/www/yantai/js"
-alias cdcss="~/dnspod/web/www/yantai/css"
 
 # Disable auto-correct
 unsetopt correct_all
 
 #Node Version Manager
 source ~/github/nvm/nvm.sh
-nvm use 0.10.13
+nvm use 0.10.17
 
 #Object-c
 #GNUSTEP_MAKEFILES=/usr/share/GNUstep/Makefiles
