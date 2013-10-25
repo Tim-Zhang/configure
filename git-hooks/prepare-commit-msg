@@ -17,7 +17,6 @@ addBranchName() {
 }
 
 MERGE=$(cat $COMMIT_EDITMSG|grep -i 'merge'|wc -l)
-echo $MERGE
 
 if [ $MERGE -eq 0 ] ; then
   addBranchName

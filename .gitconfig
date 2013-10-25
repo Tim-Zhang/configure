@@ -1,6 +1,6 @@
 [user]
 	name = TimZhang
-	email = timzhang@dnspod.com
+  email = tim@mc2.io
 [alias]
    co = checkout
    ca = commit -a
@@ -9,22 +9,38 @@
    br = branch
    df = diff
    onelog = log -p -1
+   fhs = flow hotfix start
+   fhf = flow hotfix finish
+   ffs = flow feature start
+   fff = flow feature finish
+
+
+#[diff]
+#   tool = vimdiff
+#[difftool]
+#   prompt = False
+
 [diff]
-   tool = vimdiff
-[difftool]
-   prompt = False
+   tool = kdiff3
+[difftool "kdiff3"]
+	 path = /usr/local/bin/kdiff3
+
 [core]
 	editor = /usr/bin/vim
 	excludesfile = /Users/tim/.gitignore_global
+
 [merge]
 	tool = kdiff3
 [mergetool "kdiff3"]
-	path = /Applications/kdiff3.app/Contents/MacOS/kdiff3
+  path = /usr/local/bin/kdiff3
+
 [push]
 	default = upstream
+
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
+
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
