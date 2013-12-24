@@ -44,7 +44,7 @@ unsetopt correct_all
 
 #Node Version Manager
 source ~/github/nvm/nvm.sh
-nvm use 0.10.24
+nvm use 0.10.17
 
 #Object-c
 #GNUSTEP_MAKEFILES=/usr/share/GNUstep/Makefiles
