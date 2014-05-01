@@ -4,3 +4,4 @@
 .vim/.netrwhist
 .ssh/authorized_keys
 .vim/bundle/.DS_Store
+.oh-my-zsh/cache/*
