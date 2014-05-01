@@ -1,6 +1,7 @@
 # Default
 127.0.0.1	  localhost
-127.0.1.1   lotus	
+127.0.1.1   byd	
+
 # The following lines are desirable for IPv6 capable hosts
 ::1     ip6-localhost ip6-loopback
 fe00::0 ip6-localnet
@@ -8,53 +9,4 @@ ff00::0 ip6-mcastprefix
 ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 
-# VPS
-116.251.209.158   kia
-198.147.21.85     fr fiat
-54.251.116.88     ford
-198.23.227.151    jeep
-
-#Shared Hosting
-208.113.229.103	dh
-
-# Linux Host
-172.4.2.7         wt
-172.4.2.24        ws
-172.4.2.18        wit
-106.187.91.152    linode
-192.168.1.101     yizero
-172.4.2.3         vm1
-172.4.2.4         vm2
-172.1.0.3         vm3
-172.4.0.100       vm5
-172.3.11.92       wwz
-10.96.60.36       yw
-## t.xxx and more 
-172.2.0.19        hongke
-
-# Server
-96.126.115.73     webint
-
-# Develop
-127.0.1.1	   local.beta.dnspod.cn
-172.4.2.7	   support.testing.dnspod.cn
-127.0.1.1	   ip.beta.dnspod.cn
-127.0.1.1	   test.com
-127.0.1.1	   local.anquanbao.com
-127.0.1.1	   fenlei.com 
-183.60.57.158  big.dnspod.cn
-
-# tmp
-## anquanbao
-#124.232.150.7     www.dnspod.cn dnspod.cn statics.dnspod.cn dnsapi.cn
-#113.31.64.138     www.anquanbao.com crm.anquanbao.com
-#172.3.11.10       www.dnspod.cn
-#172.3.11.10       statics.dnspod.cn
-124.232.150.7     aqb
-
-# github
-207.97.227.239       github.com
-207.97.227.252       nodeload.github.com
-169 207.97.227.243   raw.github.com
-204.232.175.94       gist.github.com
 
