@@ -38,10 +38,15 @@ export DEFAULT_USER="tim"
 
 # quick method
 alias .="source"
+#alias node='node --harmony'
 
 
 # Disable auto-correct
 unsetopt correct_all
+
+#Node Version Manager
+source ~/github/nvm/nvm.sh
+#nvm use 0.11.12
 
 #Object-c
 #GNUSTEP_MAKEFILES=/usr/share/GNUstep/Makefiles
