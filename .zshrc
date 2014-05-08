@@ -64,4 +64,4 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 ### for mac
 export EDITOR=vim
-ulimit -n 5000
+#ulimit -n 5000
