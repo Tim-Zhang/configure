@@ -39,7 +39,7 @@ export DEFAULT_USER="tim"
 # quick method
 alias .="source"
 #alias node='node --harmony'
-
+alias gulp='nvm use 0.10.26&&gulp'
 
 # Disable auto-correct
 unsetopt correct_all
@@ -61,3 +61,7 @@ function j {
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+### for mac
+export EDITOR=vim
+ulimit -n 5000
