@@ -1,0 +1,26 @@
+$TTL 7200
+; visualops.io
+@       IN      SOA     lotus.jiecao.pw. postmaster.jiecao.pw. (
+                                        2014041901 ; Serial
+                                        28800      ; Refresh
+                                        1800       ; Retry
+                                        604800     ; Expire - 1 week
+                                        86400 )    ; Minimum
+
+                IN      NS      lotus.jiecao.pw.
+
+mail            IN      A       0.0.0.0
+@               IN      TXT     "v=spf1 mx"
+
+
+@               IN      MX 5    mxbiz1.qq.com
+@               IN      MX 10   mxbiz2.qq.com
+
+ide             IN      CNAME   visualops-elb---app-6c505edc-710578276.us-east-1.elb.amazonaws.com.
+api             IN      CNAME   visualops-elb---app-6c505edc-710578276.us-east-1.elb.amazonaws.com.
+www             IN      CNAME   visualops-elb---app-6c505edc-710578276.us-east-1.elb.amazonaws.com.
+
+blog            IN      CNAME   visualops.wordpress.com.
+docs            IN      CNAME   madeiracloud.github.io.
+
+hub             IN      A       54.86.54.229 

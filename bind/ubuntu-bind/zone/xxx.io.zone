@@ -1,0 +1,17 @@
+$TTL 7200
+; xxx.io
+@       IN      SOA     lotus.jiecao.pw. postmaster.jiecao.pw. (
+                                        2014081404 ; Serial
+                                        28800      ; Refresh
+                                        1800       ; Retry
+                                        604800     ; Expire - 1 week
+                                        86400 )    ; Minimum
+
+                IN      NS      lotus.jiecao.pw.
+
+
+ide             IN      A       127.0.0.1
+api             IN      A       54.88.183.27 
+api             IN      A       54.86.205.188
+
+

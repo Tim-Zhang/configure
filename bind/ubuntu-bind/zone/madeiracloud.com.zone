@@ -1,0 +1,19 @@
+$TTL 7200
+; madeiracloud.com
+@       IN      SOA     lotus.jiecao.pw. postmaster.jiecao.pw. (
+                                        2014041901 ; Serial
+                                        28800      ; Refresh
+                                        1800       ; Retry
+                                        604800     ; Expire - 1 week
+                                        86400 )    ; Minimum
+
+                IN      NS      lotus.jiecao.pw.
+
+
+ns01            IN      A       54.254.220.101
+
+
+www             IN      A       54.86.34.152
+
+ide             IN      CNAME   madeiracloud-elb---app-6c505edc-372440160.us-east-1.elb.amazonaws.com.
+

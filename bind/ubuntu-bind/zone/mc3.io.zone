@@ -1,0 +1,23 @@
+$TTL 7200
+; mc3.io
+@       IN      SOA     lotus.jiecao.pw. postmaster.jiecao.pw. (
+                                        2014041006 ; Serial
+                                        28800      ; Refresh
+                                        1800       ; Retry
+                                        604800     ; Expire - 1 week
+                                        86400 )    ; Minimum
+
+                IN      NS      lotus.jiecao.pw.
+
+
+ns01            IN      A       54.254.220.101
+l2tp            IN      A       54.251.247.23
+pptp            IN      A       54.238.52.227
+
+
+www             IN      CNAME   visualops-elb---app-7c7658db-574417675.us-east-1.elb.amazonaws.com.
+store           IN      CNAME   mc3---app-6842d4c4-1922122148.us-east-1.elb.amazonaws.com.
+
+ide             IN      CNAME   load-balancer-0---app-6842d4c4-1075268892.us-east-1.elb.amazonaws.com.
+api             IN      CNAME   load-balancer-0---app-6842d4c4-1075268892.us-east-1.elb.amazonaws.com.
+
