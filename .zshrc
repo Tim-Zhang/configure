@@ -38,8 +38,12 @@ export DEFAULT_USER="tim"
 
 # quick method
 alias .="source"
-#alias node='node --harmony'
-alias gulp='nvm use 0.10.26&&gulp'
+alias node='node --harmony'
+#alias gulp='nvm use 0.10.26&&gulp'
+alias lx='python /Users/tim/github/xunlei-lixian/lixian_cli.py'
+alias gitrp='git pull --rebase && git push'
+# alias git rp 
+git() { if [[ $@ == "rp" ]]; then command git pull --rebase && git push; else command git "$@"; fi; }
 
 # Disable auto-correct
 unsetopt correct_all
@@ -65,3 +69,6 @@ export PATH="/usr/local/heroku/bin:$PATH"
 ### for mac
 export EDITOR=vim
 #ulimit -n 5000
+export LANG="zh_CN.UTF-8"
+
+export GOPATH=~

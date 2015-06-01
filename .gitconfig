@@ -14,33 +14,35 @@
    ffs = flow feature start
    fff = flow feature finish
 
-
-#[diff]
-#   tool = vimdiff
-#[difftool]
-#   prompt = False
-
 [diff]
-   tool = kdiff3
-[difftool "kdiff3"]
-	 path = /usr/local/bin/kdiff3
+	tool = bc3
+
+[difftool "bcomp"]
+	 path =  /usr/local/bin/bcomp
+
+[difftool]
+	prompt = false
+
+[merge]
+	tool = bc3
+
+[mergetool "bcomp"]
+  path = /usr/local/bin/bcomp
 
 [core]
 	editor = /usr/bin/vim
 	excludesfile = /Users/tim/.gitignore_global
 
-[merge]
-	tool = kdiff3
-[mergetool "kdiff3"]
-  path = /usr/local/bin/kdiff3
-
 [push]
 	default = upstream
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
 
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
+[gui]
+  encoding = utf-8
 
-[mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
+[i18n]
+	logoutputencoding = utf-8
+
