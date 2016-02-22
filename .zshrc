@@ -38,7 +38,7 @@ export DEFAULT_USER="tim"
 
 # quick method
 alias .="source"
-alias node='node --harmony'
+#alias node='node --harmony'
 #alias gulp='nvm use 0.10.26&&gulp'
 alias lx='python /Users/tim/github/xunlei-lixian/lixian_cli.py'
 alias gitrp='git pull --rebase && git push'
@@ -50,7 +50,7 @@ unsetopt correct_all
 
 #Node Version Manager
 source ~/github/nvm/nvm.sh
-#nvm use 0.11.12
+nvm use 5.3.0
 
 #Object-c
 #GNUSTEP_MAKEFILES=/usr/share/GNUstep/Makefiles
@@ -71,4 +71,8 @@ export EDITOR=vim
 #ulimit -n 5000
 export LANG="zh_CN.UTF-8"
 
-export GOPATH=~
+export GOPATH=~/warehouse/gopath
+export GOBIN=$GOPATH/bin
+export PATH=$PATH:$GOBIN
+
+test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh
