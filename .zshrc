@@ -4,6 +4,7 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
+# ZSH_THEME="gitster"
 ZSH_THEME="agnoster"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -42,6 +43,8 @@ alias .="source"
 #alias gulp='nvm use 0.10.26&&gulp'
 alias lx='python /Users/tim/github/xunlei-lixian/lixian_cli.py'
 alias gitrp='git pull --rebase && git push'
+alias cdha='cd ~/project/hyper/hyperapi'
+alias cdhw='cd ~/project/hyper/hyperweb'
 # alias git rp 
 git() { if [[ $@ == "rp" ]]; then command git pull --rebase && git push; else command git "$@"; fi; }
 
@@ -50,7 +53,7 @@ unsetopt correct_all
 
 #Node Version Manager
 source ~/github/nvm/nvm.sh
-nvm use 5.3.0
+nvm use 5.10.1
 
 #Object-c
 #GNUSTEP_MAKEFILES=/usr/share/GNUstep/Makefiles
@@ -76,3 +79,43 @@ export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOBIN
 
 test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh
+###-begin-pm2-completion-###
+### credits to npm for the completion file model
+#
+# Installation: pm2 completion >> ~/.bashrc  (or ~/.zshrc)
+#
+
+COMP_WORDBREAKS=${COMP_WORDBREAKS/=/}
+COMP_WORDBREAKS=${COMP_WORDBREAKS/@/}
+export COMP_WORDBREAKS
+
+if type complete &>/dev/null; then
+  _pm2_completion () {
+    local si="$IFS"
+    IFS=$'\n' COMPREPLY=($(COMP_CWORD="$COMP_CWORD" \
+                           COMP_LINE="$COMP_LINE" \
+                           COMP_POINT="$COMP_POINT" \
+                           pm2 completion -- "${COMP_WORDS[@]}" \
+                           2>/dev/null)) || return $?
+    IFS="$si"
+  }
+  complete -o default -F _pm2_completion pm2
+elif type compctl &>/dev/null; then
+  _pm2_completion () {
+    local cword line point words si
+    read -Ac words
+    read -cn cword
+    let cword-=1
+    read -l line
+    read -ln point
+    si="$IFS"
+    IFS=$'\n' reply=($(COMP_CWORD="$cword" \
+                       COMP_LINE="$line" \
+                       COMP_POINT="$point" \
+                       pm2 completion -- "${words[@]}" \
+                       2>/dev/null)) || return $?
+    IFS="$si"
+  }
+  compctl -K _pm2_completion + -f + pm2
+fi
+###-end-pm2-completion-###
